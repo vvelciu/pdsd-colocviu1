@@ -1,0 +1,60 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="3"
+    android:rowCount="6" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:ems="10"
+        android:enabled="false" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_row="5"
+        android:text="Center" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_column="0"
+        android:layout_gravity="left|bottom"
+        android:layout_row="5"
+        android:text="Bottom Left" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="5"
+        android:text="Top Right" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="5"
+        android:text="Top Left" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_column="2"
+        android:layout_gravity="left|bottom"
+        android:layout_row="5"
+        android:text="Bottom Right" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:text="Navigate" />
+
+</GridLayout>
